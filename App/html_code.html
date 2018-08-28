@@ -1,0 +1,246 @@
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Web app for problem #2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <!-- Unquote this while using this code somewhere else <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>--><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Web App Name</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Ship to Deck <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Storage Area</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Deck to Land</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Cranes</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Admin Panel
+    </span>
+  </div>
+</nav>
+        <div class="container-fluid ">
+        <div class="row">
+        <div class="col col-xs-6 col-sm-2  sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <span  class="list-group-item "><b>Schedules</b></span>
+            <a href="#" class="list-group-item">Today</a>
+            <a href="#" class="list-group-item">Weekly</a>
+            <a href="#" class="list-group-item">Monthly</a>
+            <span  class="list-group-item "><b>Engaged Resources- Overall</b></span>
+            <a href="#" class="list-group-item">Ship-To-Deck Trucks</a>
+            <a href="#" class="list-group-item">Deck-To-Land Trucks</a>
+            <a href="#" class="list-group-item">Cranes Shorgae Area</a>
+            <a href="#" class="list-group-item">Ship-To-Deck Cranes</a>
+            <a href="#" class="list-group-item">Ship-To-Deck Cranes</a>
+          </div>
+        </div>
+        <div class="col col-xs-6 col-sm-8 middle-col">
+          <div class="row">
+          <div class="col-sm-3  sub-col">
+            <div class="card">
+              <div class="card-header">Ship Numbers</div>
+              <div class="card-body">
+              <ul>
+<li>12345</li>
+<li>From To</li>
+<li>Days</li>
+<li>Customs</li>
+<li>Load Stage</li>
+<li>Containers</li>
+</ul>
+              </div>
+            </div>
+            </div>
+          <div class="col-sm-3  sub-col">
+            <div class="card">
+              <div class="card-header">Trucks Assigned</div>
+              <div class="card-body">
+                <ul>
+                  <li>Truck 1: S1</li>
+                  <li>Truck 2: S2</li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="card">
+              <div class="card-header">Customs Clearance</div>
+              <div class="card-body">
+                <span class="bg-danger">Pending</span>
+                <span class="bg-success">Completed</span>
+              </div>
+              
+            </div>
+            </div>
+          <div class="col-sm-6  sub-col">
+               <div class="card">
+                <div class="card-header">Sorage Line</div>
+                  <div class="card-body">
+                    SL10B
+                  </div>
+                </div>
+              
+             <div class="row row-stack">
+              <div class="col-sm-12">
+               <div class=" card">
+                <div class="card-header">Stocking Layout</div>
+                <div class="card-body">
+                  <table>
+                    <tbody>
+                      
+                      <tr>
+                        <td class="bg-secondary con-lg" data-tooltip="40'' cont"></td>
+                        <td class="bg-warning con-sm" data-tooltip="20'' cont"></td>
+                        <td class="bg-info con-sm" data-tooltip="20'' cont"></td>
+                        <td class="bg-success con-lg" data-tooltip="40'' cont"></td>
+                        <td class="bg-danger con-lg" data-tooltip="40'' cont"></td>
+                      </tr>
+                      <tr>
+                        <td class="bg-secondary con-lg" data-tooltip="40'' cont"></td>
+                        <td class="bg-warning con-sm" data-tooltip="20'' cont"></td>
+                        <td class="bg-info con-sm" data-tooltip="20'' cont"></td>
+                        <td class="bg-success con-lg" data-tooltip="40'' cont"></td>
+                        <td class="bg-danger con-lg" data-tooltip="40'' cont"></td>
+                      </tr>
+                      <tr>
+                        <td class="bg-secondary con-lg" data-tooltip="40'' cont"></td>
+                        <td class="bg-warning con-sm" data-tooltip="20'' cont"></td>
+                        <td class="bg-info con-sm" data-tooltip="20'' cont"></td>
+                        <td class="bg-success con-lg" data-tooltip="40'' cont"></td>
+                        <td class="bg-danger con-lg" data-tooltip="40'' cont"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 </div>
+              </div>
+              </div>
+              </div>
+             <div class="row row-stack">
+              <div class="col-sm-12">
+               <div class=" card">
+                <div class="card-header">Removal Time</div>
+                <div class="card-body">
+                  <ul>
+                    <li>10 am</li>
+                    <li>23rd August 2018</li>
+                    <li>Assigned Trucks</li>
+                    <li>Assigned trains</li>
+                  </ul>
+
+                 </div>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-sm-6">
+                 <div class="card">
+                   <div class="card-header"> H- Meter
+                   </div>
+                   <div class="card-body">
+                     <div class="row">
+                     <div id="piechart1" style="width: 300px; height: 140px;"></div>
+                     </div>
+                     <hr>
+                      <div class="row">
+                     <div id="piechart2" style="width: 300px; height: 140px;"></div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            <div class="col col-sm-6">
+                 <div class="card">
+                   <div class="card-header"> Alert Buttons
+                   </div>
+                   <div class="card-body">
+                     <div class="row">
+                       <span class="bg-danger">General Clearance (Ship to Port): Incomplete</span>
+                     </div>
+                     <br/> 
+                     <div class="row">
+                       <span class="bg-warning">General Clearance (Port to Train): In Progress</span>
+                     </div>
+                     <br/> 
+                     
+                     <div class="row">
+                       <span class="bg-success">General Clearance: (Port to Train) Complete</span>
+                     </div>
+                   </div> <br/> 
+                 </div>
+               </div>
+          </div>
+          <div class="row">
+            <div class="col col-sm-6">
+                 <div class="card">
+                   <div class="card-header"> Client Category
+                   </div>
+                   <div class="card-body">
+                      <table class="client-data">
+                        <tbody>
+                          <tr>
+                            <td class="client-data-r1">C1</td><td class="client-data-r1">C2</td><td class="client-data-r1">C3</td>
+                          </tr>
+                          <tr>
+                            <td>  </td><td>  </td><td>  </td>
+                          </tr>
+                          <tr>
+                            <td class="client-data-r1">Green</td><td class="client-data-r1">Red</td><td class="client-data-r1">Yellow</td>
+                          </tr>
+                        </tbody>
+                     </table>
+                   </div>
+                 </div>
+               </div>
+            <div class="col col-sm-6">
+                 <div class="card">
+                   <div class="card-header"> Client Information
+                   </div>
+                   <div class="card-body">
+                     <div class="row">
+                       <div class="col-sm-12">
+                         <div class="row">
+                           <div class="col-sm-4">
+                           <span class="bg-danger">C1</span>
+                           </div>
+                           <div class="col-sm-4">
+                           <span class="bg-waning">C2</span>
+                           </div>
+                           <div class="col-sm-4">
+                           <span class="bg-success">C3</span>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                 
+                   </div> <br/> 
+                 </div>
+               </div>
+          </div>
+          
+          </div>
+        <div class="col col-xs-12 col-sm-2 float-right  flags">
+            <div class="col-sm-12 alert alert-danger">
+            <h4 class="alert-heading">Flags:</h4>
+              <ul>
+                <li>NA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+  </body>
+</html>
+
